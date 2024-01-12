@@ -25,6 +25,7 @@ namespace GuessTheNumberGame
 
             Random random = new Random();
             computersRandom = random.Next(1, 101);
+            int a = 5;
         }
 
         private void EnterTheGuessButton_Click(object sender, EventArgs e)
