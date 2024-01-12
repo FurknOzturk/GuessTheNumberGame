@@ -25,7 +25,6 @@ namespace GuessTheNumberGame
 
             Random random = new Random();
             computersRandom = random.Next(1, 101);
-            int a = 5;
         }
 
         private void EnterTheGuessButton_Click(object sender, EventArgs e)
@@ -66,7 +65,6 @@ namespace GuessTheNumberGame
                 MessageBox.Show($"Congratulations! You guessed the number correctly in {60 - progressBar1.Value} seconds!");
                 Application.Exit();
             }
-            
         }
 
         private void Timer1_Tick(object sender, EventArgs e)
